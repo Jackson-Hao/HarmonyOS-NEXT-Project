@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Jackson_Hao\\.ohos\\config\\auto_debug_B2-HMOS-4.1-Gen1_com.example.myapplication_2850086000460900352.cer",
+          "storePassword": "0000001BB93E6DB3A111B88E9DD25E37C79B4A6D2623B538BEB3680B5BE280F0B6262E89E9DBAB5136924C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B8E78357C08DF5FFE4DAD96C05CE29086350B79A5F6CDAF61842C675B7D33EFF92CA92B721109D3",
+          "profile": "C:\\Users\\Jackson_Hao\\.ohos\\config\\auto_debug_B2-HMOS-4.1-Gen1_com.example.myapplication_2850086000460900352.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Jackson_Hao\\.ohos\\config\\auto_debug_B2-HMOS-4.1-Gen1_com.example.myapplication_2850086000460900352.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

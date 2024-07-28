@@ -1,0 +1,148 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default",
+          "runtimeOS": "HarmonyOS"
+        },
+        {
+          "name": "ohosTest",
+          "runtimeOS": "HarmonyOS"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\build",
+    "BUNDLE_NAME": "com.example.myapplication",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\build\\outputs\\default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ]
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "C:\\Users\\Jackson_Hao\\.ohos\\config\\auto_debug_B2-HMOS-4.1-Gen1_com.example.myapplication_2850086000460900352.cer",
+              "storePassword": "0000001BB93E6DB3A111B88E9DD25E37C79B4A6D2623B538BEB3680B5BE280F0B6262E89E9DBAB5136924C",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B8E78357C08DF5FFE4DAD96C05CE29086350B79A5F6CDAF61842C675B7D33EFF92CA92B721109D3",
+              "profile": "C:\\Users\\Jackson_Hao\\.ohos\\config\\auto_debug_B2-HMOS-4.1-Gen1_com.example.myapplication_2850086000460900352.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "C:\\Users\\Jackson_Hao\\.ohos\\config\\auto_debug_B2-HMOS-4.1-Gen1_com.example.myapplication_2850086000460900352.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "4.0.0(10)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false
+    }
+  },
+  "version": 1
+}
