@@ -49,19 +49,19 @@
       "BUILD_MODE": "debug"
     }
   },
-  "totalTime": 4110393600,
+  "totalTime": 4630559300,
   "moduleNum": 1,
   "taskTime": {
     "compileArkTS": 0,
     "buildArkTS": 0,
     "compileJS": 0,
     "buildJS": 0,
-    "compileResource": 246100,
+    "compileResource": 133830100,
     "packageHap": 0,
     "signHap": 0
   },
   "isIncremental": true,
-  "hasIncremental": true,
+  "hasIncremental": false,
   "isParallel": true,
   "IS_DAEMON": true,
   "LOG_LEVEL": "INFO",

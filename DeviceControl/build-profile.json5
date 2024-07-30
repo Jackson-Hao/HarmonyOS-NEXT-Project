@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Jackson_Hao\\.ohos\\config\\default_DeviceControl_S1YsqZnzX-PZ3McLxGkjhTv__FanUXk8VsZz5JlXl3s=.cer",
+          "storePassword": "0000001B53A3079294BED6E714B91FBDBDB9D08316E2F1427D868E3476A022CE2006C9DE160FF72701FDE6",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B7EC96C54B5EA72D215B2A8CBC621836BF401BB7045D832C526AD9CF3E17E0DA6AA9E09B0C48F17",
+          "profile": "C:\\Users\\Jackson_Hao\\.ohos\\config\\default_DeviceControl_S1YsqZnzX-PZ3McLxGkjhTv__FanUXk8VsZz5JlXl3s=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Jackson_Hao\\.ohos\\config\\default_DeviceControl_S1YsqZnzX-PZ3McLxGkjhTv__FanUXk8VsZz5JlXl3s=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da1a3dec-94ff-427b-9313-a66032ea9c93" name="更改" comment="" />
+    <list default="true" id="da1a3dec-94ff-427b-9313-a66032ea9c93" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/file-cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/cache/task-cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/build-logs/build.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/logs/details/details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/sync/fileCache.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/sync/fileCache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hvigor/outputs/sync/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/.hvigor/outputs/sync/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/PreviewBuildParam.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/PreviewBuildParam.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/config/buildConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/config/buildConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/entryability/EntryAbility.protoBin" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/entryability/EntryAbility.protoBin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/pages/Index.protoBin" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/entry/src/main/ets/pages/Index.protoBin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/filesInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/filesInfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/modules.cache" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/cache/default/default@PreviewArkTS/esmodule/debug/modules.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/loader/default/loader.json" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/intermediates/loader/default/loader.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/app_compiled/10471256431281897058" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/app_compiled/16511163522136069668" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/13215339114019683366" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/13397190599323500351" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/14518891025948698219" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/15747762252250339467" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/15958436072931367989" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/16616086974484595147" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/17357998466511958288" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/2139176331762754732" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/261397633308835361" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/338463800731206114" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/3858555126355718110" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/4197314991092947116" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/5713721914106641076" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/6977078005601292105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/807057468546814464" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/8087260596345133077" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/8196876563674309366" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/module_compiled/9925227448265705064" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/resources.index" beforeDir="false" afterPath="$PROJECT_DIR$/entry/.preview/default/intermediates/res/default/resources.index" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2jgOWEzvMVrdVfdisIS5SUauOu1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,7 +58,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ace.nodejs.version": "18.20.1",
-    "last_opened_file_path": "C:/Users/Jackson_Hao/Desktop/B2-HMOS-3.1-Gen1"
+    "last_opened_file_path": "C:/Users/Jackson_Hao/DevEcoStudioProjects/B2-HMOS-4.1-Gen1",
+    "projectSizeLastTraceTimestamp-15b83f58765461f4051e052d461cdeb8dbc9ae76e8af3f2ed7f9caa89c0e": "1722216802602"
   }
 }]]></component>
   <component name="RunManager" selected="Application.entry">

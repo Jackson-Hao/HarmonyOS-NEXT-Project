@@ -1,24 +1,125 @@
-[2024-07-24T15:15:03.409] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
-[2024-07-24T15:15:03.441] [DEBUG] debug-file - env: daemon=true
-[2024-07-24T15:15:03.410] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+[2024-07-29T09:33:19.970] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-07-29T09:33:20.310] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-07-29T09:33:20.323] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:21.619] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2024-07-29T09:33:21.743] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-07-29T09:33:21.760] [DEBUG] debug-file - Sdk init in 13 ms 
+[2024-07-29T09:33:21.745] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-07-29T09:33:21.753] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-07-29T09:33:21.750] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native
+[2024-07-29T09:33:19.971] [DEBUG] debug-file - env: hvigor-config.json5 content = {
   modelVersion: '5.0.0',
   dependencies: {},
   execution: {},
   logging: {},
   debugging: {}
 }
-[2024-07-24T15:15:03.779] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED ::1:45050
-[2024-07-24T15:15:03.781] [DEBUG] debug-file - java daemon started at port 45050 pid 3824
-[2024-07-24T15:15:03.785] [DEBUG] debug-file - hvigor start cli arguments:{
+[2024-07-29T09:33:20.313] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2024-07-29T09:33:21.620] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2024-07-29T09:33:21.743] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-07-29T09:33:19.973] [DEBUG] debug-file - env: daemon=false
+[2024-07-29T09:33:21.743] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-07-29T09:33:19.973] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2024-07-29T09:33:21.743] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-07-29T09:33:21.775] [DEBUG] debug-file - Project task initialization takes 15 ms 
+[2024-07-29T09:33:21.779] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:21.790] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-07-29T09:33:21.794] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
+[2024-07-29T09:33:21.795] [DEBUG] debug-file - project has submodules:entry
+[2024-07-29T09:33:21.775] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-07-29T09:33:21.783] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2024-07-29T09:33:21.790] [DEBUG] debug-file - Target 'default' config: {}
+[2024-07-29T09:33:21.794] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-07-29T09:33:21.795] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-07-29T09:33:21.776] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:21.783] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2024-07-29T09:33:21.790] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-07-29T09:33:21.794] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:21.799] [DEBUG] debug-file - load to the disk finished
+[2024-07-29T09:33:21.776] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:21.790] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-07-29T09:33:21.794] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:21.800] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1 Collected Dependency: 
+[2024-07-29T09:33:21.790] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true
+}
+[2024-07-29T09:33:21.800] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1's total dependency: 0
+[2024-07-29T09:33:21.790] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-07-29T09:33:21.801] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-07-29T09:33:21.790] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-07-29T09:33:21.801] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-07-29T09:33:21.803] [DEBUG] debug-file - Configuration phase cost:1 s 486 ms 
+[2024-07-29T09:33:21.805] [DEBUG] debug-file - Configuration task cost before running: 1 s 504 ms 
+[2024-07-29T09:33:21.805] [DEBUG] debug-file - Executing task :entry:init
+[2024-07-29T09:33:21.805] [DEBUG] debug-file - entry : init cost memory 0.01126861572265625
+[2024-07-29T09:33:21.805] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 504 ms 
+[2024-07-29T09:33:21.806] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-07-29T09:33:21.806] [DEBUG] debug-file - Executing task ::init
+[2024-07-29T09:33:21.806] [DEBUG] debug-file - B2-HMOS-4.1-Gen1 : init cost memory 0.00847625732421875
+[2024-07-29T09:33:21.806] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 505 ms 
+[2024-07-29T09:33:21.806] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-07-29T09:33:21.813] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-07-29T09:33:21.815] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true
+} in this build.
+[2024-07-29T09:33:21.817] [DEBUG] debug-file - hvigor start cli arguments:{
   prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [ '--analyze=normal' ]
+}
+[2024-07-29T09:33:21.819] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-07-29T09:33:21.819] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-07-29T09:33:21.823] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2024-07-29T09:33:21.834] [DEBUG] debug-file - Current worker pool is terminated.
+[2024-07-29T09:33:45.810] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2024-07-29T09:33:45.846] [DEBUG] debug-file - env: daemon=true
+[2024-07-29T09:33:45.811] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {}
+}
+[2024-07-29T09:33:46.179] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [],
   sync: true,
   parallel: true,
   incremental: true,
   daemon: true,
   _: [ '--analyze=normal' ]
 }
-[2024-07-24T15:15:03.798] [DEBUG] debug-file - session manager: set active socket. socketId=NNMIDN0ta2ryLJaHAAAB
-[2024-07-24T15:15:04.233] [DEBUG] debug-file - Hvigor init with startParameters:{
+[2024-07-29T09:33:46.175] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED ::1:45050
+[2024-07-29T09:33:46.179] [DEBUG] debug-file - java daemon started at port 45050 pid 21256
+[2024-07-29T09:33:46.197] [DEBUG] debug-file - session manager: set active socket. socketId=abEKbvMYPEoc32ltAAAB
+[2024-07-29T09:33:46.622] [DEBUG] debug-file - Hvigor init with startParameters:{
   hvigorfileTypeCheck: false,
   parallelExecution: true,
   incrementalExecution: true,
@@ -27,84 +128,72 @@
   analyze: 0,
   logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
 }
-[2024-07-24T15:15:04.234] [DEBUG] debug-file - Since current hvigor version 5.2.3 differs from last hvigor version 
-      undefined, delete file-cache.json and task-cache.json.
-[2024-07-24T15:15:04.234] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
-[2024-07-24T15:15:04.240] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:15:04.962] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-24T15:15:04.962] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-24T15:15:05.095] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
-[2024-07-24T15:15:05.095] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
-[2024-07-24T15:15:05.095] [DEBUG] debug-file - Product 'default' build option: {}
-[2024-07-24T15:15:05.095] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
-[2024-07-24T15:15:05.098] [DEBUG] debug-file - Product 'default' using build option: {
+[2024-07-29T09:33:46.625] [DEBUG] debug-file - Cache service initialization finished in 3 ms 
+[2024-07-29T09:33:46.631] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:47.372] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-07-29T09:33:47.372] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-07-29T09:33:47.512] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-07-29T09:33:47.512] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-07-29T09:33:47.512] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-07-29T09:33:47.512] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-07-29T09:33:47.515] [DEBUG] debug-file - Product 'default' using build option: {
   "debuggable": true
 } in this build.
-[2024-07-24T15:15:05.102] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native
-[2024-07-24T15:15:05.105] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
-[2024-07-24T15:15:05.109] [DEBUG] debug-file - Sdk init in 10 ms 
-[2024-07-24T15:15:05.121] [DEBUG] debug-file - Project task initialization takes 11 ms 
-[2024-07-24T15:15:05.121] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-24T15:15:05.121] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:15:05.121] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:15:05.124] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:15:05.129] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-24T15:15:05.130] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-24T15:15:05.137] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
-[2024-07-24T15:15:05.137] [DEBUG] debug-file - Target 'default' config: {}
-[2024-07-24T15:15:05.138] [DEBUG] debug-file - Target 'ohosTest' config: {}
-[2024-07-24T15:15:05.138] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+[2024-07-29T09:33:47.521] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native
+[2024-07-29T09:33:47.523] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2024-07-29T09:33:47.527] [DEBUG] debug-file - Sdk init in 9 ms 
+[2024-07-29T09:33:47.539] [DEBUG] debug-file - Project task initialization takes 11 ms 
+[2024-07-29T09:33:47.539] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-07-29T09:33:47.539] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:47.539] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:47.542] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:47.546] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-07-29T09:33:47.546] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-07-29T09:33:47.552] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-07-29T09:33:47.552] [DEBUG] debug-file - Target 'default' config: {}
+[2024-07-29T09:33:47.552] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-07-29T09:33:47.553] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
   "debuggable": true,
   "copyFrom": "default"
 }
-[2024-07-24T15:15:05.138] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+[2024-07-29T09:33:47.553] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
   "debuggable": true
 }
-[2024-07-24T15:15:05.138] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
-[2024-07-24T15:15:05.138] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+[2024-07-29T09:33:47.553] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-07-29T09:33:47.553] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
   "debuggable": true,
   "copyFrom": "default"
 } in this build.
-[2024-07-24T15:15:05.142] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
-[2024-07-24T15:15:05.142] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-24T15:15:05.142] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:15:05.143] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:15:05.186] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 43 ms 
-[2024-07-24T15:15:05.186] [DEBUG] debug-file - project has submodules:entry
-[2024-07-24T15:15:05.187] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
-[2024-07-24T15:15:05.190] [DEBUG] debug-file - load to the disk finished
-[2024-07-24T15:15:05.191] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1 Collected Dependency: 
-[2024-07-24T15:15:05.192] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1's total dependency: 0
-[2024-07-24T15:15:05.194] [DEBUG] debug-file - Module entry Collected Dependency: 
-[2024-07-24T15:15:05.194] [DEBUG] debug-file - Module entry's total dependency: 0
-[2024-07-24T15:15:05.197] [DEBUG] debug-file - Configuration phase cost:960 ms 
-[2024-07-24T15:15:05.199] [DEBUG] debug-file - Configuration task cost before running: 972 ms 
-[2024-07-24T15:15:05.201] [DEBUG] debug-file - Executing task :entry:clean
-[2024-07-24T15:15:05.201] [DEBUG] debug-file - clean: Worker pool is inactive.
-[2024-07-24T15:15:05.203] [DEBUG] debug-file - entry : clean cost memory 0.1783447265625
-[2024-07-24T15:15:05.203] [DEBUG] debug-file - runTaskFromQueue task cost before running: 976 ms 
-[2024-07-24T15:15:05.203] [INFO] debug-file - Finished :entry:clean... after 3 ms 
-[2024-07-24T15:15:05.203] [DEBUG] debug-file - Executing task ::clean
-[2024-07-24T15:15:05.203] [DEBUG] debug-file - clean: Worker pool is inactive.
-[2024-07-24T15:15:05.204] [DEBUG] debug-file - B2-HMOS-4.1-Gen1 : clean cost memory 0.03740692138671875
-[2024-07-24T15:15:05.204] [DEBUG] debug-file - runTaskFromQueue task cost before running: 977 ms 
-[2024-07-24T15:15:05.204] [INFO] debug-file - Finished ::clean... after 1 ms 
-[2024-07-24T15:15:05.204] [DEBUG] debug-file - Executing task :entry:init
-[2024-07-24T15:15:05.204] [DEBUG] debug-file - entry : init cost memory 0.013671875
-[2024-07-24T15:15:05.204] [DEBUG] debug-file - runTaskFromQueue task cost before running: 978 ms 
-[2024-07-24T15:15:05.204] [INFO] debug-file - Finished :entry:init... after 1 ms 
-[2024-07-24T15:15:05.204] [DEBUG] debug-file - Executing task ::init
-[2024-07-24T15:15:05.205] [DEBUG] debug-file - B2-HMOS-4.1-Gen1 : init cost memory 0.01233673095703125
-[2024-07-24T15:15:05.205] [DEBUG] debug-file - runTaskFromQueue task cost before running: 978 ms 
-[2024-07-24T15:15:05.205] [INFO] debug-file - Finished ::init... after 1 ms 
-[2024-07-24T15:15:05.215] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+[2024-07-29T09:33:47.556] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2024-07-29T09:33:47.556] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-07-29T09:33:47.556] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:47.556] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:47.600] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 43 ms 
+[2024-07-29T09:33:47.600] [DEBUG] debug-file - project has submodules:entry
+[2024-07-29T09:33:47.600] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-07-29T09:33:47.604] [DEBUG] debug-file - load to the disk finished
+[2024-07-29T09:33:47.605] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1 Collected Dependency: 
+[2024-07-29T09:33:47.605] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1's total dependency: 0
+[2024-07-29T09:33:47.607] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-07-29T09:33:47.607] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-07-29T09:33:47.609] [DEBUG] debug-file - Configuration phase cost:982 ms 
+[2024-07-29T09:33:47.611] [DEBUG] debug-file - Configuration task cost before running: 994 ms 
+[2024-07-29T09:33:47.611] [DEBUG] debug-file - Executing task :entry:init
+[2024-07-29T09:33:47.612] [DEBUG] debug-file - entry : init cost memory 0.0151214599609375
+[2024-07-29T09:33:47.612] [DEBUG] debug-file - runTaskFromQueue task cost before running: 995 ms 
+[2024-07-29T09:33:47.612] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2024-07-29T09:33:47.612] [DEBUG] debug-file - Executing task ::init
+[2024-07-29T09:33:47.612] [DEBUG] debug-file - B2-HMOS-4.1-Gen1 : init cost memory 0.01238250732421875
+[2024-07-29T09:33:47.612] [DEBUG] debug-file - runTaskFromQueue task cost before running: 996 ms 
+[2024-07-29T09:33:47.612] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-07-29T09:33:47.620] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
   "debuggable": true,
   "copyFrom": "default"
 } in this build.
-[2024-07-24T15:15:05.217] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+[2024-07-29T09:33:47.622] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
   "debuggable": true
 } in this build.
-[2024-07-24T15:15:24.812] [DEBUG] debug-file - Hvigor init with startParameters:{
+[2024-07-29T09:33:47.822] [DEBUG] debug-file - Hvigor init with startParameters:{
   hvigorfileTypeCheck: false,
   parallelExecution: true,
   incrementalExecution: true,
@@ -113,518 +202,331 @@
   analyze: 0,
   logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
 }
-[2024-07-24T15:15:24.812] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
-[2024-07-24T15:15:24.817] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:15:24.822] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-24T15:15:24.822] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-24T15:15:24.826] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
-[2024-07-24T15:15:24.826] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
-[2024-07-24T15:15:24.826] [DEBUG] debug-file - Product 'default' build option: {}
-[2024-07-24T15:15:24.826] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
-[2024-07-24T15:15:24.827] [DEBUG] debug-file - Product 'default' using build option: {
+[2024-07-29T09:33:47.823] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2024-07-29T09:33:47.828] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:47.832] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-07-29T09:33:47.832] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-07-29T09:33:47.838] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-07-29T09:33:47.839] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-07-29T09:33:47.839] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-07-29T09:33:47.839] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-07-29T09:33:47.839] [DEBUG] debug-file - Product 'default' using build option: {
   "debuggable": true
 } in this build.
-[2024-07-24T15:15:24.833] [DEBUG] debug-file - Sdk init in 5 ms 
-[2024-07-24T15:15:24.844] [DEBUG] debug-file - Project task initialization takes 11 ms 
-[2024-07-24T15:15:24.844] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-24T15:15:24.844] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:15:24.844] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:15:24.846] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:15:24.850] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-24T15:15:24.850] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-24T15:15:24.854] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
-[2024-07-24T15:15:24.854] [DEBUG] debug-file - Target 'default' config: {}
-[2024-07-24T15:15:24.854] [DEBUG] debug-file - Target 'ohosTest' config: {}
-[2024-07-24T15:15:24.854] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+[2024-07-29T09:33:47.845] [DEBUG] debug-file - Sdk init in 5 ms 
+[2024-07-29T09:33:47.854] [DEBUG] debug-file - Project task initialization takes 9 ms 
+[2024-07-29T09:33:47.854] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-07-29T09:33:47.854] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:47.854] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigorfile.ts
+[2024-07-29T09:33:47.857] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:47.860] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-07-29T09:33:47.860] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-07-29T09:33:47.863] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-07-29T09:33:47.863] [DEBUG] debug-file - Target 'default' config: {}
+[2024-07-29T09:33:47.863] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-07-29T09:33:47.863] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
   "debuggable": true,
   "copyFrom": "default"
 }
-[2024-07-24T15:15:24.854] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+[2024-07-29T09:33:47.863] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
   "debuggable": true
 }
-[2024-07-24T15:15:24.854] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
-[2024-07-24T15:15:24.854] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+[2024-07-29T09:33:47.863] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-07-29T09:33:47.863] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
   "debuggable": true,
   "copyFrom": "default"
 } in this build.
-[2024-07-24T15:15:24.856] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
-[2024-07-24T15:15:24.856] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-24T15:15:24.856] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:15:24.856] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:15:24.893] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 37 ms 
-[2024-07-24T15:15:24.893] [DEBUG] debug-file - project has submodules:entry
-[2024-07-24T15:15:24.894] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
-[2024-07-24T15:15:24.897] [DEBUG] debug-file - load to the disk finished
-[2024-07-24T15:15:24.898] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1 Collected Dependency: 
-[2024-07-24T15:15:24.898] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1's total dependency: 0
-[2024-07-24T15:15:24.898] [DEBUG] debug-file - Module entry Collected Dependency: 
-[2024-07-24T15:15:24.898] [DEBUG] debug-file - Module entry's total dependency: 0
-[2024-07-24T15:15:24.901] [DEBUG] debug-file - Configuration phase cost:87 ms 
-[2024-07-24T15:15:24.901] [DEBUG] debug-file - Configuration task cost before running: 95 ms 
-[2024-07-24T15:15:24.903] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:24.903] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:24.903] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:24.906] [DEBUG] debug-file - Executing task :entry:default@PreBuild
-[2024-07-24T15:15:25.009] [DEBUG] debug-file - current product is not Atomic service.
-[2024-07-24T15:15:25.009] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+[2024-07-29T09:33:47.865] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2024-07-29T09:33:47.865] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-07-29T09:33:47.865] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:47.865] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
+[2024-07-29T09:33:47.900] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 35 ms 
+[2024-07-29T09:33:47.900] [DEBUG] debug-file - project has submodules:entry
+[2024-07-29T09:33:47.900] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2024-07-29T09:33:47.903] [DEBUG] debug-file - load to the disk finished
+[2024-07-29T09:33:47.903] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1 Collected Dependency: 
+[2024-07-29T09:33:47.903] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1's total dependency: 0
+[2024-07-29T09:33:47.904] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-07-29T09:33:47.904] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-07-29T09:33:47.905] [DEBUG] debug-file - Configuration phase cost:80 ms 
+[2024-07-29T09:33:47.908] [DEBUG] debug-file - Configuration task cost before running: 90 ms 
+[2024-07-29T09:33:47.909] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:47.910] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:47.910] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:47.912] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-07-29T09:33:47.916] [DEBUG] debug-file - entry:default@PreBuild is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\AppScope\app.json5' has been changed.
+[2024-07-29T09:33:47.916] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 2 ms .
+[2024-07-29T09:33:47.996] [DEBUG] debug-file - current product is not Atomic service.
+[2024-07-29T09:33:47.996] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
  [
   { JAVA_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\jbr' },
   { CLASSPATH: undefined }
 ]
-[2024-07-24T15:15:25.009] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+[2024-07-29T09:33:47.997] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
  [
   {
     NODE_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node'
   }
 ]
-[2024-07-24T15:15:25.010] [DEBUG] debug-file - entry : default@PreBuild cost memory 4.252937316894531
-[2024-07-24T15:15:25.010] [DEBUG] debug-file - runTaskFromQueue task cost before running: 203 ms 
-[2024-07-24T15:15:25.011] [INFO] debug-file - Finished :entry:default@PreBuild... after 104 ms 
-[2024-07-24T15:15:25.012] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.012] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.012] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.013] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
-[2024-07-24T15:15:25.013] [DEBUG] debug-file - Change app api release type with 'Beta1'
-[2024-07-24T15:15:25.014] [DEBUG] debug-file - Change app compile API version with '5.0.0.25'
-[2024-07-24T15:15:25.014] [DEBUG] debug-file - Change app target API version with '50000012'
-[2024-07-24T15:15:25.014] [DEBUG] debug-file - Change app minimum API version with '40000010'
-[2024-07-24T15:15:25.014] [DEBUG] debug-file - Use cli appEnvironment
-[2024-07-24T15:15:25.016] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.12790679931640625
-[2024-07-24T15:15:25.016] [DEBUG] debug-file - runTaskFromQueue task cost before running: 209 ms 
-[2024-07-24T15:15:25.016] [INFO] debug-file - Finished :entry:default@MergeProfile... after 4 ms 
-[2024-07-24T15:15:25.018] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.018] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.018] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.018] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
-[2024-07-24T15:15:25.020] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.08056640625
-[2024-07-24T15:15:25.020] [DEBUG] debug-file - runTaskFromQueue task cost before running: 214 ms 
-[2024-07-24T15:15:25.021] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 2 ms 
-[2024-07-24T15:15:25.022] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.022] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.022] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.022] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
-[2024-07-24T15:15:25.022] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01317596435546875
-[2024-07-24T15:15:25.022] [DEBUG] debug-file - runTaskFromQueue task cost before running: 216 ms 
-[2024-07-24T15:15:25.023] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
-[2024-07-24T15:15:25.024] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.024] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.024] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.032] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
-[2024-07-24T15:15:25.032] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.02011871337890625
-[2024-07-24T15:15:25.032] [DEBUG] debug-file - runTaskFromQueue task cost before running: 226 ms 
-[2024-07-24T15:15:25.033] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
-[2024-07-24T15:15:25.034] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.034] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.034] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.035] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
-[2024-07-24T15:15:25.036] [DEBUG] debug-file - [
+[2024-07-29T09:33:47.997] [DEBUG] debug-file - entry : default@PreBuild cost memory 12.624359130859375
+[2024-07-29T09:33:47.997] [DEBUG] debug-file - runTaskFromQueue task cost before running: 180 ms 
+[2024-07-29T09:33:47.998] [INFO] debug-file - Finished :entry:default@PreBuild... after 85 ms 
+[2024-07-29T09:33:48.000] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.000] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.000] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.001] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-07-29T09:33:48.002] [DEBUG] debug-file - entry:default@MergeProfile is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\AppScope\app.json5' has been changed.
+[2024-07-29T09:33:48.002] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2024-07-29T09:33:48.002] [DEBUG] debug-file - Change app api release type with 'Beta1'
+[2024-07-29T09:33:48.002] [DEBUG] debug-file - Change app compile API version with '5.0.0.25'
+[2024-07-29T09:33:48.002] [DEBUG] debug-file - Change app target API version with '50000012'
+[2024-07-29T09:33:48.002] [DEBUG] debug-file - Change app minimum API version with '40000010'
+[2024-07-29T09:33:48.003] [DEBUG] debug-file - Use cli appEnvironment
+[2024-07-29T09:33:48.004] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.20635986328125
+[2024-07-29T09:33:48.004] [DEBUG] debug-file - runTaskFromQueue task cost before running: 187 ms 
+[2024-07-29T09:33:48.005] [INFO] debug-file - Finished :entry:default@MergeProfile... after 4 ms 
+[2024-07-29T09:33:48.006] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.006] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.006] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.007] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-07-29T09:33:48.008] [DEBUG] debug-file - entry:default@CreateBuildProfile is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\AppScope\app.json5' has been changed.
+[2024-07-29T09:33:48.008] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2024-07-29T09:33:48.009] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.1129150390625
+[2024-07-29T09:33:48.009] [DEBUG] debug-file - runTaskFromQueue task cost before running: 192 ms 
+[2024-07-29T09:33:48.009] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 3 ms 
+[2024-07-29T09:33:48.011] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.011] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.011] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.011] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-07-29T09:33:48.012] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.013458251953125
+[2024-07-29T09:33:48.012] [DEBUG] debug-file - runTaskFromQueue task cost before running: 195 ms 
+[2024-07-29T09:33:48.012] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-07-29T09:33:48.013] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.013] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.013] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.021] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2024-07-29T09:33:48.022] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.02081298828125
+[2024-07-29T09:33:48.022] [DEBUG] debug-file - runTaskFromQueue task cost before running: 205 ms 
+[2024-07-29T09:33:48.022] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2024-07-29T09:33:48.023] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.023] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.023] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.024] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-07-29T09:33:48.025] [DEBUG] debug-file - entry:default@ProcessProfile is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\merge_profile\default\module.json' has been changed.
+[2024-07-29T09:33:48.025] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2024-07-29T09:33:48.026] [DEBUG] debug-file - [
   'C:\\Program Files\\Huawei\\DevEco Studio\\tools\\node\\node.exe',
   'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB1\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
   '--target-api-version',
   '10'
 ]
-[2024-07-24T15:15:25.092] [DEBUG] debug-file - 9.0.0.0
-[2024-07-24T15:15:25.093] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.43963623046875
-[2024-07-24T15:15:25.093] [DEBUG] debug-file - runTaskFromQueue task cost before running: 286 ms 
-[2024-07-24T15:15:25.093] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 58 ms 
-[2024-07-24T15:15:25.094] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.094] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.094] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.095] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
-[2024-07-24T15:15:25.098] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.167938232421875
-[2024-07-24T15:15:25.098] [DEBUG] debug-file - runTaskFromQueue task cost before running: 292 ms 
-[2024-07-24T15:15:25.099] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 4 ms 
-[2024-07-24T15:15:25.100] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.100] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.100] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.101] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
-[2024-07-24T15:15:25.102] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
-[2024-07-24T15:15:25.103] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.050506591796875
-[2024-07-24T15:15:25.103] [DEBUG] debug-file - runTaskFromQueue task cost before running: 296 ms 
-[2024-07-24T15:15:25.104] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 2 ms 
-[2024-07-24T15:15:25.105] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.105] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.105] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.107] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
-[2024-07-24T15:15:25.113] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.47553253173828125
-[2024-07-24T15:15:25.113] [DEBUG] debug-file - runTaskFromQueue task cost before running: 307 ms 
-[2024-07-24T15:15:25.115] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 7 ms 
-[2024-07-24T15:15:25.116] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.116] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.117] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.117] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
-[2024-07-24T15:15:25.118] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
-[2024-07-24T15:15:25.136] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB1\openharmony\toolchains\restool.exe]
+[2024-07-29T09:33:48.086] [DEBUG] debug-file - 9.0.0.0
+[2024-07-29T09:33:48.087] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 2.1945419311523438
+[2024-07-29T09:33:48.087] [DEBUG] debug-file - runTaskFromQueue task cost before running: 270 ms 
+[2024-07-29T09:33:48.087] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 63 ms 
+[2024-07-29T09:33:48.088] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.088] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.088] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.090] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2024-07-29T09:33:48.091] [DEBUG] debug-file - entry:default@ProcessRouterMap is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\oh-package.json5' has been changed.
+[2024-07-29T09:33:48.091] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 2 ms .
+[2024-07-29T09:33:48.093] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.23296356201171875
+[2024-07-29T09:33:48.093] [DEBUG] debug-file - runTaskFromQueue task cost before running: 276 ms 
+[2024-07-29T09:33:48.094] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 4 ms 
+[2024-07-29T09:33:48.095] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.095] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.095] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.096] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2024-07-29T09:33:48.098] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2024-07-29T09:33:48.098] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.01821136474609375
+[2024-07-29T09:33:48.100] [DEBUG] debug-file - runTaskFromQueue task cost before running: 283 ms 
+[2024-07-29T09:33:48.101] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 3 ms 
+[2024-07-29T09:33:48.102] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.102] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.102] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.104] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-07-29T09:33:48.109] [DEBUG] debug-file - entry:default@GenerateLoaderJson is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\router_map\default\intermediates_temp_routerMap.json' has been changed.
+[2024-07-29T09:33:48.109] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 3 ms .
+[2024-07-29T09:33:48.112] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.6320724487304688
+[2024-07-29T09:33:48.112] [DEBUG] debug-file - runTaskFromQueue task cost before running: 295 ms 
+[2024-07-29T09:33:48.114] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 9 ms 
+[2024-07-29T09:33:48.115] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.115] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.115] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.116] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2024-07-29T09:33:48.116] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2024-07-29T09:33:48.128] [DEBUG] debug-file - entry:default@PreviewCompileResource is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\resources' has been changed.
+[2024-07-29T09:33:48.129] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 12 ms .
+[2024-07-29T09:33:48.149] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB1\openharmony\toolchains\restool.exe]
  [
   'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB1\\openharmony\\toolchains\\restool.exe',
   '-x',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\AppScope\\resources',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\AppScope\\resources',
   '-o',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled'
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled'
 ]
-[2024-07-24T15:15:25.138] [DEBUG] debug-file - current process  memoryUsage: {
-  rss: 170123264,
-  heapTotal: 128040960,
-  heapUsed: 94041264,
-  external: 1434091,
-  arrayBuffers: 68891
-} os memoryUsage :10.5274658203125
-[2024-07-24T15:15:25.162] [DEBUG] debug-file - Info: restool resources compile success.
+[2024-07-29T09:33:48.150] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 194654208,
+  heapTotal: 144556032,
+  heapUsed: 119319616,
+  external: 1511096,
+  arrayBuffers: 143190
+} os memoryUsage :8.445808410644531
+[2024-07-29T09:33:48.171] [DEBUG] debug-file - Info: restool resources compile success.
 
-[2024-07-24T15:15:25.164] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB1\openharmony\toolchains\restool.exe]
+[2024-07-29T09:33:48.172] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB1\openharmony\toolchains\restool.exe]
  [
   'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB1\\openharmony\\toolchains\\restool.exe',
   '-x',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\src\\main\\resources',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\src\\main\\resources',
   '-o',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled'
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled'
 ]
-[2024-07-24T15:15:25.165] [DEBUG] debug-file - current process  memoryUsage: {
-  rss: 166014976,
-  heapTotal: 128040960,
-  heapUsed: 94300256,
-  external: 1434217,
-  arrayBuffers: 69032
-} os memoryUsage :10.529361724853516
-[2024-07-24T15:15:25.185] [DEBUG] debug-file - Info: restool resources compile success.
+[2024-07-29T09:33:48.173] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 194777088,
+  heapTotal: 144556032,
+  heapUsed: 119793888,
+  external: 1511222,
+  arrayBuffers: 143331
+} os memoryUsage :8.4476318359375
+[2024-07-29T09:33:48.190] [DEBUG] debug-file - Info: restool resources compile success.
 
-[2024-07-24T15:15:25.187] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB1\openharmony\toolchains\restool.exe]
+[2024-07-29T09:33:48.192] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\HarmonyOS-NEXT-DB1\openharmony\toolchains\restool.exe]
  [
   'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\HarmonyOS-NEXT-DB1\\openharmony\\toolchains\\restool.exe',
   '-m',
   'entry',
   '-f',
   '-j',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\process_profile\\default\\module.json',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\process_profile\\default\\module.json',
   '-p',
   'com.example.myapplication',
   '-r',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\generated\\r\\default\\ResourceTable.h',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\generated\\r\\default\\ResourceTable.h',
   '-z',
   '--ids',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map',
+  '--defined-ids',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map\\id_defined.json',
   '-i',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled',
   '-i',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled',
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled',
   '-o',
-  'C:\\Users\\Jackson_Hao\\Desktop\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default'
+  'C:\\Users\\Jackson_Hao\\DevEcoStudioProjects\\B2-HMOS-4.1-Gen1\\entry\\.preview\\default\\intermediates\\res\\default'
 ]
-[2024-07-24T15:15:25.188] [DEBUG] debug-file - current process  memoryUsage: {
-  rss: 166060032,
-  heapTotal: 128040960,
-  heapUsed: 94721016,
-  external: 1434343,
-  arrayBuffers: 69961
-} os memoryUsage :10.534866333007812
-[2024-07-24T15:15:25.235] [DEBUG] debug-file - Info: restool resources compile success.
+[2024-07-29T09:33:48.193] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 194830336,
+  heapTotal: 144556032,
+  heapUsed: 120075224,
+  external: 1511348,
+  arrayBuffers: 144516
+} os memoryUsage :8.448593139648438
+[2024-07-29T09:33:48.243] [DEBUG] debug-file - Info: restool resources compile success.
 
-[2024-07-24T15:15:25.238] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory -4.1048583984375
-[2024-07-24T15:15:25.239] [DEBUG] debug-file - runTaskFromQueue task cost before running: 432 ms 
-[2024-07-24T15:15:25.239] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 121 ms 
-[2024-07-24T15:15:25.241] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.241] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.241] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.241] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
-[2024-07-24T15:15:25.241] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.0146331787109375
-[2024-07-24T15:15:25.241] [DEBUG] debug-file - runTaskFromQueue task cost before running: 434 ms 
-[2024-07-24T15:15:25.241] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
-[2024-07-24T15:15:25.242] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.243] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.243] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.243] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
-[2024-07-24T15:15:25.247] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.16594696044921875
-[2024-07-24T15:15:25.247] [DEBUG] debug-file - runTaskFromQueue task cost before running: 440 ms 
-[2024-07-24T15:15:25.247] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 5 ms 
-[2024-07-24T15:15:25.249] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.249] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.249] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.249] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
-[2024-07-24T15:15:25.250] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.0145111083984375
-[2024-07-24T15:15:25.250] [DEBUG] debug-file - runTaskFromQueue task cost before running: 443 ms 
-[2024-07-24T15:15:25.250] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
-[2024-07-24T15:15:25.251] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
-[2024-07-24T15:15:25.251] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.011627197265625
-[2024-07-24T15:15:25.251] [DEBUG] debug-file - runTaskFromQueue task cost before running: 444 ms 
-[2024-07-24T15:15:25.251] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
-[2024-07-24T15:15:25.252] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.252] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.252] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.252] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
-[2024-07-24T15:15:25.254] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.06339263916015625
-[2024-07-24T15:15:25.254] [DEBUG] debug-file - runTaskFromQueue task cost before running: 447 ms 
-[2024-07-24T15:15:25.254] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 2 ms 
-[2024-07-24T15:15:25.255] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.255] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:15:25.255] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:15:25.257] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
-[2024-07-24T15:15:25.270] [DEBUG] debug-file - session manager: binding session. socketId=PDajExTSn_2G1s21AAAD, threadId=1@1.
-[2024-07-24T15:15:25.271] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.41363525390625
-[2024-07-24T15:15:26.468] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
-[2024-07-24T15:15:28.311] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
-[2024-07-24T15:15:28.312] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
-[2024-07-24T15:15:28.312] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
-[2024-07-24T15:15:28.358] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
-[2024-07-24T15:15:29.553] [DEBUG] debug-file - Ark compile finished.
-[2024-07-24T15:15:29.552] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
-[2024-07-24T15:15:29.553] [ERROR] debug-file - Failed :entry:default@PreviewArkTS... 
-[2024-07-24T15:15:29.553] [DEBUG] debug-file - hvigor build process will be closed with an error.
-[2024-07-24T15:15:29.553] [DEBUG] debug-file - ERROR: stacktrace = Error: [31mArkTS:ERROR File: C:/Users/Jackson_Hao/Desktop/B2-HMOS-4.1-Gen1/entry/src/main/ets/pages/Index.ets:117:28
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[31mArkTS:ERROR File: C:/Users/Jackson_Hao/Desktop/B2-HMOS-4.1-Gen1/entry/src/main/ets/pages/Index.ets:123:12
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-
-    at handleResponse (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\pool\worker-pool\watch-worker.js:1:1567)
-    at async Worker.<anonymous> (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\pool\worker-pool\watch-worker.js:1:3177)
-[2024-07-24T15:15:29.553] [ERROR] debug-file - Error: [31mArkTS:ERROR File: C:/Users/Jackson_Hao/Desktop/B2-HMOS-4.1-Gen1/entry/src/main/ets/pages/Index.ets:117:28
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-[31mArkTS:ERROR File: C:/Users/Jackson_Hao/Desktop/B2-HMOS-4.1-Gen1/entry/src/main/ets/pages/Index.ets:123:12
- Use explicit types instead of "any", "unknown" (arkts-no-any-unknown)
-
-    at handleResponse (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\pool\worker-pool\watch-worker.js:1:1567)
-    at async Worker.<anonymous> (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\internal\pool\worker-pool\watch-worker.js:1:3177)
-[2024-07-24T15:15:29.560] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\AppScope\app.json5 cache by regenerate.
-[2024-07-24T15:15:29.560] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\module.json5 cache by regenerate.
-[2024-07-24T15:15:29.561] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\build-profile.json5 cache by regenerate.
-[2024-07-24T15:15:29.561] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\build-profile.json5 cache by regenerate.
-[2024-07-24T15:15:29.561] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
-[2024-07-24T15:15:29.561] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigor\hvigor-config.json5 cache by regenerate.
-[2024-07-24T15:15:29.561] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\oh-package.json5 cache by regenerate.
-[2024-07-24T15:15:29.561] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:2 ms .
-[2024-07-24T15:15:29.561] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\AppScope\app.json5 cache by regenerate.
-[2024-07-24T15:15:29.562] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\build-profile.json5 cache by regenerate.
-[2024-07-24T15:15:29.562] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\module.json5 cache by regenerate.
-[2024-07-24T15:15:29.562] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\merge_profile\default\module.json cache.
-[2024-07-24T15:15:29.562] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
-[2024-07-24T15:15:29.562] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\AppScope\app.json5 cache by regenerate.
-[2024-07-24T15:15:29.562] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\build-profile.json5 cache by regenerate.
-[2024-07-24T15:15:29.563] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\generated\profile\default\BuildProfile.ets cache.
-[2024-07-24T15:15:29.563] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:1 ms .
-[2024-07-24T15:15:29.563] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
-[2024-07-24T15:15:29.563] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
-[2024-07-24T15:15:29.563] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
-[2024-07-24T15:15:29.563] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\process_profile\default\module.json cache.
-[2024-07-24T15:15:29.563] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
-[2024-07-24T15:15:29.564] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\oh-package.json5 cache by regenerate.
-[2024-07-24T15:15:29.564] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\oh-package.json5 cache by regenerate.
-[2024-07-24T15:15:29.564] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\module.json5 cache by regenerate.
-[2024-07-24T15:15:29.564] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\router_map\default\intermediates_temp_routerMap.json cache.
-[2024-07-24T15:15:29.564] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\router_map\default\intermediate_routerMap_for_loader.json cache.
-[2024-07-24T15:15:29.564] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:1 ms .
-[2024-07-24T15:15:29.565] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\router_map\default\intermediates_temp_routerMap.json cache by regenerate.
-[2024-07-24T15:15:29.565] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default\loader.json cache.
-[2024-07-24T15:15:29.566] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:2 ms .
-[2024-07-24T15:15:29.566] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\resources cache by regenerate.
-[2024-07-24T15:15:29.567] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
-[2024-07-24T15:15:29.568] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default cache.
-[2024-07-24T15:15:29.569] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\generated\r\default cache.
-[2024-07-24T15:15:29.569] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:4 ms .
-[2024-07-24T15:15:29.570] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\resources\base\profile cache by regenerate.
-[2024-07-24T15:15:29.570] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
-[2024-07-24T15:15:29.570] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:1 ms .
-[2024-07-24T15:15:29.570] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\module.json cache.
-[2024-07-24T15:15:29.570] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
-[2024-07-24T15:15:29.570] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
-[2024-07-24T15:15:29.571] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default cache by regenerate.
-[2024-07-24T15:15:29.571] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
-[2024-07-24T15:15:29.572] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\module.json cache by regenerate.
-[2024-07-24T15:15:29.572] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
-[2024-07-24T15:15:29.572] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\ets cache by regenerate.
-[2024-07-24T15:15:29.572] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
-[2024-07-24T15:15:29.572] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader_out\default\ets cache.
-[2024-07-24T15:15:29.572] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:2 ms .
-[2024-07-24T15:16:41.435] [DEBUG] debug-file - Hvigor init with startParameters:{
-  hvigorfileTypeCheck: false,
-  parallelExecution: true,
-  incrementalExecution: true,
-  printStackTrace: false,
-  daemon: true,
-  analyze: 0,
-  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
-}
-[2024-07-24T15:16:41.437] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
-[2024-07-24T15:16:41.442] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:16:41.447] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-24T15:16:41.447] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-24T15:16:41.450] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
-[2024-07-24T15:16:41.450] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
-[2024-07-24T15:16:41.450] [DEBUG] debug-file - Product 'default' build option: {}
-[2024-07-24T15:16:41.450] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
-[2024-07-24T15:16:41.451] [DEBUG] debug-file - Product 'default' using build option: {
-  "debuggable": true
-} in this build.
-[2024-07-24T15:16:41.455] [DEBUG] debug-file - Sdk init in 4 ms 
-[2024-07-24T15:16:41.463] [DEBUG] debug-file - Project task initialization takes 8 ms 
-[2024-07-24T15:16:41.463] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-24T15:16:41.463] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:16:41.463] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\hvigorfile.ts
-[2024-07-24T15:16:41.465] [DEBUG] debug-file - hvigorfile, resolving C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:16:41.468] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
-[2024-07-24T15:16:41.468] [DEBUG] debug-file - hvigorfile, binding system plugins null
-[2024-07-24T15:16:41.470] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
-[2024-07-24T15:16:41.470] [DEBUG] debug-file - Target 'default' config: {}
-[2024-07-24T15:16:41.470] [DEBUG] debug-file - Target 'ohosTest' config: {}
-[2024-07-24T15:16:41.470] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
-  "debuggable": true,
-  "copyFrom": "default"
-}
-[2024-07-24T15:16:41.470] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
-  "debuggable": true
-}
-[2024-07-24T15:16:41.470] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
-[2024-07-24T15:16:41.470] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
-  "debuggable": true,
-  "copyFrom": "default"
-} in this build.
-[2024-07-24T15:16:41.472] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
-[2024-07-24T15:16:41.472] [DEBUG] debug-file - hvigorfile, binding custom plugins []
-[2024-07-24T15:16:41.472] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:16:41.472] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\hvigorfile.ts
-[2024-07-24T15:16:41.505] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 33 ms 
-[2024-07-24T15:16:41.505] [DEBUG] debug-file - project has submodules:entry
-[2024-07-24T15:16:41.505] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
-[2024-07-24T15:16:41.507] [DEBUG] debug-file - load to the disk finished
-[2024-07-24T15:16:41.508] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1 Collected Dependency: 
-[2024-07-24T15:16:41.508] [DEBUG] debug-file - Module B2-HMOS-4.1-Gen1's total dependency: 0
-[2024-07-24T15:16:41.508] [DEBUG] debug-file - Module entry Collected Dependency: 
-[2024-07-24T15:16:41.508] [DEBUG] debug-file - Module entry's total dependency: 0
-[2024-07-24T15:16:41.509] [DEBUG] debug-file - Configuration phase cost:70 ms 
-[2024-07-24T15:16:41.511] [DEBUG] debug-file - Configuration task cost before running: 80 ms 
-[2024-07-24T15:16:41.511] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.512] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.512] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.513] [DEBUG] debug-file - Executing task :entry:default@PreBuild
-[2024-07-24T15:16:41.516] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 3 ms .
-[2024-07-24T15:16:41.516] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.25373077392578125
-[2024-07-24T15:16:41.516] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
-[2024-07-24T15:16:41.517] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.517] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.517] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.518] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
-[2024-07-24T15:16:41.519] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
-[2024-07-24T15:16:41.519] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.100616455078125
-[2024-07-24T15:16:41.519] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
-[2024-07-24T15:16:41.520] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.520] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.520] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.520] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
-[2024-07-24T15:16:41.521] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
-[2024-07-24T15:16:41.521] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.11749267578125
-[2024-07-24T15:16:41.521] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
-[2024-07-24T15:16:41.522] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.522] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.522] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.523] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
-[2024-07-24T15:16:41.523] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01319122314453125
-[2024-07-24T15:16:41.523] [DEBUG] debug-file - runTaskFromQueue task cost before running: 93 ms 
-[2024-07-24T15:16:41.523] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
-[2024-07-24T15:16:41.524] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.524] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.524] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.526] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
-[2024-07-24T15:16:41.526] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.02014923095703125
-[2024-07-24T15:16:41.526] [DEBUG] debug-file - runTaskFromQueue task cost before running: 96 ms 
-[2024-07-24T15:16:41.526] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
-[2024-07-24T15:16:41.527] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.527] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.527] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.527] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
-[2024-07-24T15:16:41.528] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
-[2024-07-24T15:16:41.528] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.05879974365234375
-[2024-07-24T15:16:41.528] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
-[2024-07-24T15:16:41.529] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.529] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.529] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.530] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
-[2024-07-24T15:16:41.531] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 2 ms .
-[2024-07-24T15:16:41.531] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.2220916748046875
-[2024-07-24T15:16:41.532] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
-[2024-07-24T15:16:41.533] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.533] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.533] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.533] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
-[2024-07-24T15:16:41.534] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
-[2024-07-24T15:16:41.534] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.04742431640625
-[2024-07-24T15:16:41.535] [DEBUG] debug-file - runTaskFromQueue task cost before running: 104 ms 
-[2024-07-24T15:16:41.535] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 1 ms 
-[2024-07-24T15:16:41.536] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.536] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.536] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.537] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
-[2024-07-24T15:16:41.541] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 3 ms .
-[2024-07-24T15:16:41.541] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.45337677001953125
-[2024-07-24T15:16:41.543] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
-[2024-07-24T15:16:41.544] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.544] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.544] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.544] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
-[2024-07-24T15:16:41.545] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
-[2024-07-24T15:16:41.550] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 6 ms .
-[2024-07-24T15:16:41.551] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory 0.6720199584960938
-[2024-07-24T15:16:41.551] [INFO] debug-file - UP-TO-DATE :entry:default@PreviewCompileResource...  
-[2024-07-24T15:16:41.552] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.552] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.552] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.552] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
-[2024-07-24T15:16:41.552] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.01422882080078125
-[2024-07-24T15:16:41.552] [DEBUG] debug-file - runTaskFromQueue task cost before running: 122 ms 
-[2024-07-24T15:16:41.552] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
-[2024-07-24T15:16:41.553] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.553] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.553] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.554] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
-[2024-07-24T15:16:41.554] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
-[2024-07-24T15:16:41.554] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.0874786376953125
-[2024-07-24T15:16:41.554] [INFO] debug-file - UP-TO-DATE :entry:default@CopyPreviewProfile...  
-[2024-07-24T15:16:41.555] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.555] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.555] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.556] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
-[2024-07-24T15:16:41.556] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.01416015625
-[2024-07-24T15:16:41.556] [DEBUG] debug-file - runTaskFromQueue task cost before running: 126 ms 
-[2024-07-24T15:16:41.556] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
-[2024-07-24T15:16:41.557] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
-[2024-07-24T15:16:41.557] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.0116119384765625
-[2024-07-24T15:16:41.557] [DEBUG] debug-file - runTaskFromQueue task cost before running: 127 ms 
-[2024-07-24T15:16:41.557] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
-[2024-07-24T15:16:41.558] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.558] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.558] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.559] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
-[2024-07-24T15:16:41.560] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 1 ms .
-[2024-07-24T15:16:41.560] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.10027313232421875
-[2024-07-24T15:16:41.560] [INFO] debug-file - UP-TO-DATE :entry:default@PreviewUpdateAssets...  
-[2024-07-24T15:16:41.561] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.561] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
-[2024-07-24T15:16:41.561] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
-[2024-07-24T15:16:41.562] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
-[2024-07-24T15:16:41.569] [DEBUG] debug-file - session manager: binding session. socketId=h9cBc7y-aUKPm4g-AAAF, threadId=1@2.
-[2024-07-24T15:16:41.568] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 0.9353485107421875
-[2024-07-24T15:16:42.708] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
-[2024-07-24T15:16:44.593] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
-[2024-07-24T15:16:45.533] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
-[2024-07-24T15:16:45.533] [DEBUG] debug-file - Ark compile finished.
-[2024-07-24T15:16:45.535] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 3 s 972 ms 
-[2024-07-24T15:16:45.536] [DEBUG] debug-file - Executing task :entry:PreviewBuild
-[2024-07-24T15:16:45.536] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.015869140625
-[2024-07-24T15:16:45.536] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 106 ms 
-[2024-07-24T15:16:45.536] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
-[2024-07-24T15:16:45.541] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
-[2024-07-24T15:16:45.541] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
-[2024-07-24T15:16:45.541] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
-[2024-07-24T15:16:45.541] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
-[2024-07-24T15:16:45.542] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
-[2024-07-24T15:16:45.542] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
-[2024-07-24T15:16:45.542] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
-[2024-07-24T15:16:45.542] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
-[2024-07-24T15:16:45.542] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewCompileResource is up-to-date.
-[2024-07-24T15:16:45.542] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CopyPreviewProfile is up-to-date.
-[2024-07-24T15:16:45.542] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewUpdateAssets is up-to-date.
-[2024-07-24T15:16:45.543] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default cache by regenerate.
-[2024-07-24T15:16:45.543] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
-[2024-07-24T15:16:45.543] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\module.json cache by regenerate.
-[2024-07-24T15:16:45.543] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
-[2024-07-24T15:16:45.543] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\src\main\ets cache by regenerate.
-[2024-07-24T15:16:45.544] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
-[2024-07-24T15:16:45.544] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:C:\Users\Jackson_Hao\Desktop\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader_out\default\ets cache.
-[2024-07-24T15:16:45.544] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:3 ms .
+[2024-07-29T09:33:48.249] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory 8.110198974609375
+[2024-07-29T09:33:48.249] [DEBUG] debug-file - runTaskFromQueue task cost before running: 432 ms 
+[2024-07-29T09:33:48.250] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 133 ms 
+[2024-07-29T09:33:48.252] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.253] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.253] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.253] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2024-07-29T09:33:48.253] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.01494598388671875
+[2024-07-29T09:33:48.253] [DEBUG] debug-file - runTaskFromQueue task cost before running: 436 ms 
+[2024-07-29T09:33:48.253] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2024-07-29T09:33:48.255] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.255] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.255] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.255] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2024-07-29T09:33:48.256] [DEBUG] debug-file - entry:default@CopyPreviewProfile is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\resources\base\profile' has been changed.
+[2024-07-29T09:33:48.256] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
+[2024-07-29T09:33:48.259] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.18475341796875
+[2024-07-29T09:33:48.260] [DEBUG] debug-file - runTaskFromQueue task cost before running: 442 ms 
+[2024-07-29T09:33:48.260] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 5 ms 
+[2024-07-29T09:33:48.261] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.261] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.261] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.261] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2024-07-29T09:33:48.262] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.0149688720703125
+[2024-07-29T09:33:48.262] [DEBUG] debug-file - runTaskFromQueue task cost before running: 445 ms 
+[2024-07-29T09:33:48.262] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 1 ms 
+[2024-07-29T09:33:48.263] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2024-07-29T09:33:48.263] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.2440032958984375
+[2024-07-29T09:33:48.263] [DEBUG] debug-file - runTaskFromQueue task cost before running: 446 ms 
+[2024-07-29T09:33:48.263] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2024-07-29T09:33:48.265] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.265] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.265] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.266] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2024-07-29T09:33:48.268] [DEBUG] debug-file - entry:default@PreviewUpdateAssets is not up-to-date, since the output file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\module.json' has been changed.
+[2024-07-29T09:33:48.268] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 2 ms .
+[2024-07-29T09:33:48.269] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.12328338623046875
+[2024-07-29T09:33:48.269] [DEBUG] debug-file - runTaskFromQueue task cost before running: 452 ms 
+[2024-07-29T09:33:48.269] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 4 ms 
+[2024-07-29T09:33:48.272] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.272] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-07-29T09:33:48.272] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{}} at undefined
+[2024-07-29T09:33:48.275] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2024-07-29T09:33:48.280] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the input file 'C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default' has been changed.
+[2024-07-29T09:33:48.280] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 3 ms .
+[2024-07-29T09:33:48.288] [DEBUG] debug-file - session manager: binding session. socketId=72j_eFn-n3JVTN75AAAD, threadId=1@1.
+[2024-07-29T09:33:48.288] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.2807998657226562
+[2024-07-29T09:33:49.666] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2024-07-29T09:33:51.447] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2024-07-29T09:33:52.437] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2024-07-29T09:33:52.439] [DEBUG] debug-file - Ark compile finished.
+[2024-07-29T09:33:52.441] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 4 s 165 ms 
+[2024-07-29T09:33:52.442] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2024-07-29T09:33:52.442] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01149749755859375
+[2024-07-29T09:33:52.442] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 625 ms 
+[2024-07-29T09:33:52.442] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2024-07-29T09:33:52.449] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\AppScope\app.json5 cache from map.
+[2024-07-29T09:33:52.449] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\module.json5 cache by regenerate.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\build-profile.json5 cache by regenerate.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\build-profile.json5 cache by regenerate.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\hvigor\hvigor-config.json5 cache by regenerate.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\oh-package.json5 cache by regenerate.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:2 ms .
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\AppScope\app.json5 cache from map.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\build-profile.json5 cache by regenerate.
+[2024-07-29T09:33:52.450] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\module.json5 cache by regenerate.
+[2024-07-29T09:33:52.451] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\merge_profile\default\module.json cache.
+[2024-07-29T09:33:52.451] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2024-07-29T09:33:52.451] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\AppScope\app.json5 cache from map.
+[2024-07-29T09:33:52.451] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\build-profile.json5 cache by regenerate.
+[2024-07-29T09:33:52.452] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\generated\profile\default\BuildProfile.ets cache.
+[2024-07-29T09:33:52.452] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:2 ms .
+[2024-07-29T09:33:52.452] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2024-07-29T09:33:52.452] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2024-07-29T09:33:52.453] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\merge_profile\default\module.json cache from map.
+[2024-07-29T09:33:52.453] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\process_profile\default\module.json cache.
+[2024-07-29T09:33:52.453] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2024-07-29T09:33:52.454] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\oh-package.json5 cache from map.
+[2024-07-29T09:33:52.454] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\oh-package.json5 cache by regenerate.
+[2024-07-29T09:33:52.454] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\module.json5 cache by regenerate.
+[2024-07-29T09:33:52.454] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\router_map\default\intermediates_temp_routerMap.json cache.
+[2024-07-29T09:33:52.454] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\router_map\default\intermediate_routerMap_for_loader.json cache.
+[2024-07-29T09:33:52.454] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2024-07-29T09:33:52.455] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\router_map\default\intermediates_temp_routerMap.json cache from map.
+[2024-07-29T09:33:52.455] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default\loader.json cache.
+[2024-07-29T09:33:52.455] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:2 ms .
+[2024-07-29T09:33:52.456] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\resources cache from map.
+[2024-07-29T09:33:52.456] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2024-07-29T09:33:52.456] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default cache.
+[2024-07-29T09:33:52.457] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\generated\r\default cache.
+[2024-07-29T09:33:52.457] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:3 ms .
+[2024-07-29T09:33:52.458] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\resources\base\profile cache from map.
+[2024-07-29T09:33:52.458] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
+[2024-07-29T09:33:52.458] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:1 ms .
+[2024-07-29T09:33:52.458] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\module.json cache.
+[2024-07-29T09:33:52.458] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2024-07-29T09:33:52.458] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
+[2024-07-29T09:33:52.459] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader\default cache from map.
+[2024-07-29T09:33:52.459] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-07-29T09:33:52.459] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\module.json cache by regenerate.
+[2024-07-29T09:33:52.460] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-07-29T09:33:52.460] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\src\main\ets cache by regenerate.
+[2024-07-29T09:33:52.460] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-07-29T09:33:52.460] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:C:\Users\Jackson_Hao\DevEcoStudioProjects\B2-HMOS-4.1-Gen1\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2024-07-29T09:33:52.460] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:3 ms .
